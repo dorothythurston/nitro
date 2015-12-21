@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		ECD7DBB31C2852BF0009E240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB21C2852BF0009E240 /* AppDelegate.swift */; };
-		ECD7DBB51C2852BF0009E240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB41C2852BF0009E240 /* ViewController.swift */; };
+		ECD7DBB51C2852BF0009E240 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB41C2852BF0009E240 /* AuthenticationViewController.swift */; };
 		ECD7DBB81C2852BF0009E240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD7DBB61C2852BF0009E240 /* Main.storyboard */; };
 		ECD7DBBB1C2852BF0009E240 /* Nitro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB91C2852BF0009E240 /* Nitro.xcdatamodeld */; };
 		ECD7DBBD1C2852BF0009E240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD7DBBC1C2852BF0009E240 /* Assets.xcassets */; };
 		ECD7DBC01C2852BF0009E240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD7DBBE1C2852BF0009E240 /* LaunchScreen.storyboard */; };
-		ECD7DBCB1C2852BF0009E240 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBCA1C2852BF0009E240 /* NitroTests.swift */; };
 		ECD7DBD61C2852BF0009E240 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBD51C2852BF0009E240 /* NitroUITests.swift */; };
+		ECD7DBE41C28579E0009E240 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBE31C28579E0009E240 /* String.swift */; };
+		ECD7DBE61C2857E20009E240 /* AuthenticationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBE51C2857E20009E240 /* AuthenticationViewControllerTests.swift */; };
+		ECD7DBE81C2858240009E240 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBE71C2858240009E240 /* StringTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECB4A3201C28732300B643E6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		ECB4A3211C28732300B643E6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		ECD7DBAF1C2852BF0009E240 /* Nitro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nitro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD7DBB21C2852BF0009E240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECD7DBB41C2852BF0009E240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD7DBB41C2852BF0009E240 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		ECD7DBB71C2852BF0009E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECD7DBBA1C2852BF0009E240 /* Nitro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nitro.xcdatamodel; sourceTree = "<group>"; };
 		ECD7DBBC1C2852BF0009E240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECD7DBBF1C2852BF0009E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECD7DBC11C2852BF0009E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECD7DBC61C2852BF0009E240 /* NitroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD7DBCA1C2852BF0009E240 /* NitroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroTests.swift; sourceTree = "<group>"; };
 		ECD7DBCC1C2852BF0009E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECD7DBD11C2852BF0009E240 /* NitroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD7DBD51C2852BF0009E240 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
 		ECD7DBD71C2852BF0009E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD7DBE31C28579E0009E240 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		ECD7DBE51C2857E20009E240 /* AuthenticationViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControllerTests.swift; sourceTree = "<group>"; };
+		ECD7DBE71C2858240009E240 /* StringTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				ECD7DBB21C2852BF0009E240 /* AppDelegate.swift */,
-				ECD7DBB41C2852BF0009E240 /* ViewController.swift */,
+				ECD7DBB41C2852BF0009E240 /* AuthenticationViewController.swift */,
+				ECD7DBE31C28579E0009E240 /* String.swift */,
 				ECD7DBB61C2852BF0009E240 /* Main.storyboard */,
 				ECD7DBBC1C2852BF0009E240 /* Assets.xcassets */,
 				ECD7DBBE1C2852BF0009E240 /* LaunchScreen.storyboard */,
@@ -113,8 +120,9 @@
 		ECD7DBC91C2852BF0009E240 /* NitroTests */ = {
 			isa = PBXGroup;
 			children = (
-				ECD7DBCA1C2852BF0009E240 /* NitroTests.swift */,
+				ECD7DBE71C2858240009E240 /* StringTest.swift */,
 				ECD7DBCC1C2852BF0009E240 /* Info.plist */,
+				ECD7DBE51C2857E20009E240 /* AuthenticationViewControllerTests.swift */,
 			);
 			path = NitroTests;
 			sourceTree = "<group>";
@@ -260,7 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD7DBBB1C2852BF0009E240 /* Nitro.xcdatamodeld in Sources */,
-				ECD7DBB51C2852BF0009E240 /* ViewController.swift in Sources */,
+				ECD7DBB51C2852BF0009E240 /* AuthenticationViewController.swift in Sources */,
+				ECD7DBE41C28579E0009E240 /* String.swift in Sources */,
 				ECD7DBB31C2852BF0009E240 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD7DBCB1C2852BF0009E240 /* NitroTests.swift in Sources */,
+				ECD7DBE61C2857E20009E240 /* AuthenticationViewControllerTests.swift in Sources */,
+				ECD7DBE81C2858240009E240 /* StringTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +311,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECD7DBB71C2852BF0009E240 /* Base */,
+				ECB4A3201C28732300B643E6 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ECD7DBBF1C2852BF0009E240 /* Base */,
+				ECB4A3211C28732300B643E6 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -488,6 +500,7 @@
 				ECD7DBDC1C2852BF0009E240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECD7DBDD1C2852BF0009E240 /* Build configuration list for PBXNativeTarget "NitroTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				ECD7DBDF1C2852BF0009E240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECD7DBE01C2852BF0009E240 /* Build configuration list for PBXNativeTarget "NitroUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				ECD7DBE21C2852BF0009E240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
