@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD7DBB31C2852BF0009E240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB21C2852BF0009E240 /* AppDelegate.swift */; };
+		ECD7DBB51C2852BF0009E240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB41C2852BF0009E240 /* ViewController.swift */; };
+		ECD7DBB81C2852BF0009E240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD7DBB61C2852BF0009E240 /* Main.storyboard */; };
+		ECD7DBBB1C2852BF0009E240 /* Nitro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBB91C2852BF0009E240 /* Nitro.xcdatamodeld */; };
+		ECD7DBBD1C2852BF0009E240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD7DBBC1C2852BF0009E240 /* Assets.xcassets */; };
+		ECD7DBC01C2852BF0009E240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD7DBBE1C2852BF0009E240 /* LaunchScreen.storyboard */; };
+		ECD7DBCB1C2852BF0009E240 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBCA1C2852BF0009E240 /* NitroTests.swift */; };
+		ECD7DBD61C2852BF0009E240 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7DBD51C2852BF0009E240 /* NitroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD7DBC71C2852BF0009E240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD7DBA71C2852BF0009E240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD7DBAE1C2852BF0009E240;
+			remoteInfo = Nitro;
+		};
+		ECD7DBD21C2852BF0009E240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD7DBA71C2852BF0009E240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD7DBAE1C2852BF0009E240;
+			remoteInfo = Nitro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD7DBAF1C2852BF0009E240 /* Nitro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nitro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD7DBB21C2852BF0009E240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD7DBB41C2852BF0009E240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD7DBB71C2852BF0009E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD7DBBA1C2852BF0009E240 /* Nitro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nitro.xcdatamodel; sourceTree = "<group>"; };
+		ECD7DBBC1C2852BF0009E240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD7DBBF1C2852BF0009E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD7DBC11C2852BF0009E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD7DBC61C2852BF0009E240 /* NitroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD7DBCA1C2852BF0009E240 /* NitroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroTests.swift; sourceTree = "<group>"; };
+		ECD7DBCC1C2852BF0009E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD7DBD11C2852BF0009E240 /* NitroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD7DBD51C2852BF0009E240 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
+		ECD7DBD71C2852BF0009E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD7DBAC1C2852BF0009E240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7DBC31C2852BF0009E240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7DBCE1C2852BF0009E240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD7DBA61C2852BF0009E240 = {
+			isa = PBXGroup;
+			children = (
+				ECD7DBB11C2852BF0009E240 /* Nitro */,
+				ECD7DBC91C2852BF0009E240 /* NitroTests */,
+				ECD7DBD41C2852BF0009E240 /* NitroUITests */,
+				ECD7DBB01C2852BF0009E240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD7DBB01C2852BF0009E240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7DBAF1C2852BF0009E240 /* Nitro.app */,
+				ECD7DBC61C2852BF0009E240 /* NitroTests.xctest */,
+				ECD7DBD11C2852BF0009E240 /* NitroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD7DBB11C2852BF0009E240 /* Nitro */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7DBB21C2852BF0009E240 /* AppDelegate.swift */,
+				ECD7DBB41C2852BF0009E240 /* ViewController.swift */,
+				ECD7DBB61C2852BF0009E240 /* Main.storyboard */,
+				ECD7DBBC1C2852BF0009E240 /* Assets.xcassets */,
+				ECD7DBBE1C2852BF0009E240 /* LaunchScreen.storyboard */,
+				ECD7DBC11C2852BF0009E240 /* Info.plist */,
+				ECD7DBB91C2852BF0009E240 /* Nitro.xcdatamodeld */,
+			);
+			path = Nitro;
+			sourceTree = "<group>";
+		};
+		ECD7DBC91C2852BF0009E240 /* NitroTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7DBCA1C2852BF0009E240 /* NitroTests.swift */,
+				ECD7DBCC1C2852BF0009E240 /* Info.plist */,
+			);
+			path = NitroTests;
+			sourceTree = "<group>";
+		};
+		ECD7DBD41C2852BF0009E240 /* NitroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7DBD51C2852BF0009E240 /* NitroUITests.swift */,
+				ECD7DBD71C2852BF0009E240 /* Info.plist */,
+			);
+			path = NitroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD7DBAE1C2852BF0009E240 /* Nitro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD7DBDA1C2852BF0009E240 /* Build configuration list for PBXNativeTarget "Nitro" */;
+			buildPhases = (
+				ECD7DBAB1C2852BF0009E240 /* Sources */,
+				ECD7DBAC1C2852BF0009E240 /* Frameworks */,
+				ECD7DBAD1C2852BF0009E240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nitro;
+			productName = Nitro;
+			productReference = ECD7DBAF1C2852BF0009E240 /* Nitro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD7DBC51C2852BF0009E240 /* NitroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD7DBDD1C2852BF0009E240 /* Build configuration list for PBXNativeTarget "NitroTests" */;
+			buildPhases = (
+				ECD7DBC21C2852BF0009E240 /* Sources */,
+				ECD7DBC31C2852BF0009E240 /* Frameworks */,
+				ECD7DBC41C2852BF0009E240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD7DBC81C2852BF0009E240 /* PBXTargetDependency */,
+			);
+			name = NitroTests;
+			productName = NitroTests;
+			productReference = ECD7DBC61C2852BF0009E240 /* NitroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD7DBD01C2852BF0009E240 /* NitroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD7DBE01C2852BF0009E240 /* Build configuration list for PBXNativeTarget "NitroUITests" */;
+			buildPhases = (
+				ECD7DBCD1C2852BF0009E240 /* Sources */,
+				ECD7DBCE1C2852BF0009E240 /* Frameworks */,
+				ECD7DBCF1C2852BF0009E240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD7DBD31C2852BF0009E240 /* PBXTargetDependency */,
+			);
+			name = NitroUITests;
+			productName = NitroUITests;
+			productReference = ECD7DBD11C2852BF0009E240 /* NitroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD7DBA71C2852BF0009E240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dorothy Thurston";
+				TargetAttributes = {
+					ECD7DBAE1C2852BF0009E240 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					ECD7DBC51C2852BF0009E240 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ECD7DBAE1C2852BF0009E240;
+					};
+					ECD7DBD01C2852BF0009E240 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ECD7DBAE1C2852BF0009E240;
+					};
+				};
+			};
+			buildConfigurationList = ECD7DBAA1C2852BF0009E240 /* Build configuration list for PBXProject "Nitro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD7DBA61C2852BF0009E240;
+			productRefGroup = ECD7DBB01C2852BF0009E240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD7DBAE1C2852BF0009E240 /* Nitro */,
+				ECD7DBC51C2852BF0009E240 /* NitroTests */,
+				ECD7DBD01C2852BF0009E240 /* NitroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD7DBAD1C2852BF0009E240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD7DBC01C2852BF0009E240 /* LaunchScreen.storyboard in Resources */,
+				ECD7DBBD1C2852BF0009E240 /* Assets.xcassets in Resources */,
+				ECD7DBB81C2852BF0009E240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7DBC41C2852BF0009E240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7DBCF1C2852BF0009E240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD7DBAB1C2852BF0009E240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD7DBBB1C2852BF0009E240 /* Nitro.xcdatamodeld in Sources */,
+				ECD7DBB51C2852BF0009E240 /* ViewController.swift in Sources */,
+				ECD7DBB31C2852BF0009E240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7DBC21C2852BF0009E240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD7DBCB1C2852BF0009E240 /* NitroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7DBCD1C2852BF0009E240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD7DBD61C2852BF0009E240 /* NitroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD7DBC81C2852BF0009E240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD7DBAE1C2852BF0009E240 /* Nitro */;
+			targetProxy = ECD7DBC71C2852BF0009E240 /* PBXContainerItemProxy */;
+		};
+		ECD7DBD31C2852BF0009E240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD7DBAE1C2852BF0009E240 /* Nitro */;
+			targetProxy = ECD7DBD21C2852BF0009E240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD7DBB61C2852BF0009E240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD7DBB71C2852BF0009E240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD7DBBE1C2852BF0009E240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD7DBBF1C2852BF0009E240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD7DBD81C2852BF0009E240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD7DBD91C2852BF0009E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD7DBDB1C2852BF0009E240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nitro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dorothy.Nitro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECD7DBDC1C2852BF0009E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nitro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dorothy.Nitro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECD7DBDE1C2852BF0009E240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NitroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dorothy.NitroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nitro.app/Nitro";
+			};
+			name = Debug;
+		};
+		ECD7DBDF1C2852BF0009E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NitroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dorothy.NitroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nitro.app/Nitro";
+			};
+			name = Release;
+		};
+		ECD7DBE11C2852BF0009E240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NitroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dorothy.NitroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nitro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECD7DBE21C2852BF0009E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NitroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dorothy.NitroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nitro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD7DBAA1C2852BF0009E240 /* Build configuration list for PBXProject "Nitro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD7DBD81C2852BF0009E240 /* Debug */,
+				ECD7DBD91C2852BF0009E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD7DBDA1C2852BF0009E240 /* Build configuration list for PBXNativeTarget "Nitro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD7DBDB1C2852BF0009E240 /* Debug */,
+				ECD7DBDC1C2852BF0009E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD7DBDD1C2852BF0009E240 /* Build configuration list for PBXNativeTarget "NitroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD7DBDE1C2852BF0009E240 /* Debug */,
+				ECD7DBDF1C2852BF0009E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD7DBE01C2852BF0009E240 /* Build configuration list for PBXNativeTarget "NitroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD7DBE11C2852BF0009E240 /* Debug */,
+				ECD7DBE21C2852BF0009E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECD7DBB91C2852BF0009E240 /* Nitro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECD7DBBA1C2852BF0009E240 /* Nitro.xcdatamodel */,
+			);
+			currentVersion = ECD7DBBA1C2852BF0009E240 /* Nitro.xcdatamodel */;
+			path = Nitro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECD7DBA71C2852BF0009E240 /* Project object */;
+}
