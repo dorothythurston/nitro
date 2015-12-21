@@ -15,16 +15,14 @@ class AuthenticationViewControllerUITests: XCTestCase {
     
     func testCorrectLoginCredentialsEnablesContinueButton() {
         let app = XCUIApplication()
-        let signInElementsQuery = app.otherElements.containingType(.Button, identifier:"sign in")
+        let signInElementsQuery = XCUIApplication().otherElements.containingType(.Button, identifier:"sign in")
         let textField = signInElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(0)
         textField.tap()
         textField.typeText("d@d.com")
         
         let textField2 = signInElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(1)
         textField2.tap()
-        textField2.tap()
         textField2.typeText("b1H")
-        app.buttons["sign in"].tap()
         
         XCTAssert(app.buttons["sign in"].enabled)
     }
@@ -36,16 +34,13 @@ class AuthenticationViewControllerUITests: XCTestCase {
         let textField = signInElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(0)
         textField.tap()
         textField.typeText("notanemail")
-        XCTAssertFalse(app.buttons["sign in"].enabled)
-        
-        textField.typeText("good@email.com")
         let textField2 = signInElementsQuery.childrenMatchingType(.TextField).elementBoundByIndex(1)
         textField2.tap()
         textField2.typeText("bad")
         XCTAssertFalse(app.buttons["sign in"].enabled)
         
         textField.tap()
-        textField.typeText("")
+        textField.typeText("@email.com")
         XCTAssertFalse(app.buttons["sign in"].enabled)
     }
 }
