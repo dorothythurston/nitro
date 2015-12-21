@@ -48,6 +48,7 @@
 		9CCD870ADD056AA87BE8A251 /* Pods_NitroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04FB3B73E34175297A585E3 /* Pods-Nitro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nitro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nitro/Pods-Nitro.release.xcconfig"; sourceTree = "<group>"; };
 		D2D35729DAB72C7480542B84 /* Pods-Nitro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nitro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nitro/Pods-Nitro.debug.xcconfig"; sourceTree = "<group>"; };
+		ECAD0D6D1C287FEB0065E8E7 /* Nitro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nitro-Bridging-Header.h"; sourceTree = "<group>"; };
 		ECB4A3201C28732300B643E6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		ECB4A3211C28732300B643E6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		ECD7DBAF1C2852BF0009E240 /* Nitro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nitro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +124,7 @@
 		ECD7DBA61C2852BF0009E240 = {
 			isa = PBXGroup;
 			children = (
+				ECAD0D6D1C287FEB0065E8E7 /* Nitro-Bridging-Header.h */,
 				ECD7DBB11C2852BF0009E240 /* Nitro */,
 				ECD7DBC91C2852BF0009E240 /* NitroTests */,
 				ECD7DBD41C2852BF0009E240 /* NitroUITests */,
@@ -539,8 +541,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Nitro-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 			};
 			name = Debug;
 		};
@@ -577,7 +581,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Nitro-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

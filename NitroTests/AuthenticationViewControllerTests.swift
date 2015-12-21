@@ -1,6 +1,7 @@
 import XCTest
 import UIKit
 @testable import Nitro
+import Nocilla
 
 class AuthenticationViewControllerTests: XCTestCase {
     var viewController: AuthenticationViewController!
